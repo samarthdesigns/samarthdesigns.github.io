@@ -13,6 +13,7 @@ body{
     padding: 0px;
     font-family: 'Inter', sans-serif;
     color: $black;
+    overflow-x: hidden;
 }
 
 a{
@@ -47,6 +48,28 @@ p{
 
 .text-darkblue{
     color: $darkblue;
+}
+
+@keyframes fadeInAnimationLeft{
+    0%{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInAnimationRight{
+    0%{
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 .main{
@@ -104,6 +127,9 @@ p{
                 color:$black;
                 font-size: 82px;
                 margin-bottom: 45px;
+                transform: translateX(-50px);
+                opacity: 0;
+                animation: fadeInAnimationLeft .6s ease .2s forwards;
 
                 @media screen and (max-width: 1400px) {
                     font-size: 62px;
@@ -127,6 +153,9 @@ p{
                 line-height: 170%;
                 margin-bottom: 45px;
                 max-width: 950px;
+                transform: translateX(-50px);
+                opacity: 0;
+                animation: fadeInAnimationLeft .6s ease .4s forwards;
 
                 @media screen and (max-width: 1400px) {
                     font-size: 40px;
@@ -150,6 +179,7 @@ p{
             }
 
             .small{
+
                 color: $lightgrey;
                 font-size: 16px;
 
@@ -176,6 +206,10 @@ p{
         height: 100%;
         display: inline-block;
         float: right;
+
+        transform: translateX(50px);
+        opacity: 0;
+        animation: fadeInAnimationRight .8s ease .2s forwards;
 
         @media screen and (max-width: 900px) {
             display: block;
@@ -206,6 +240,10 @@ p{
 
 .socials-mobile{
 
+    transform: translateX(-50px);
+    opacity: 0;
+    animation: fadeInAnimationLeft .6s ease .6s forwards;
+
     position: relative;
     top: 0px;
     left: 5vw;
@@ -229,7 +267,7 @@ p{
     .divider{
         width: 100%;
         height: 2px;
-        background: #E5E5E5;
+        background: #fafafa;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -339,6 +377,10 @@ p{
 }
 
 .socials{
+
+    transform: translateX(-50px);
+    opacity: 0;
+    animation: fadeInAnimationLeft .6s ease .6s forwards;
     position: fixed;
     left: 7vw;
     width: 100%;

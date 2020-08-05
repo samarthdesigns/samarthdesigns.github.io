@@ -3,6 +3,7 @@ body {
   padding: 0px;
   font-family: 'Inter', sans-serif;
   color: #141414;
+  overflow-x: hidden;
 }
 
 a {
@@ -41,6 +42,58 @@ p {
 
 .text-darkblue {
   color: #03008A;
+}
+
+@-webkit-keyframes fadeInAnimationLeft {
+  0% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimationLeft {
+  0% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInAnimationRight {
+  0% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimationRight {
+  0% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
 }
 
 .main {
@@ -112,6 +165,11 @@ p {
   color: #141414;
   font-size: 82px;
   margin-bottom: 45px;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  opacity: 0;
+  -webkit-animation: fadeInAnimationLeft .6s ease .2s forwards;
+          animation: fadeInAnimationLeft .6s ease .2s forwards;
 }
 
 @media screen and (max-width: 1400px) {
@@ -140,6 +198,11 @@ p {
   line-height: 170%;
   margin-bottom: 45px;
   max-width: 950px;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  opacity: 0;
+  -webkit-animation: fadeInAnimationLeft .6s ease .4s forwards;
+          animation: fadeInAnimationLeft .6s ease .4s forwards;
 }
 
 @media screen and (max-width: 1400px) {
@@ -195,6 +258,11 @@ p {
   height: 100%;
   display: inline-block;
   float: right;
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+  opacity: 0;
+  -webkit-animation: fadeInAnimationRight .8s ease .2s forwards;
+          animation: fadeInAnimationRight .8s ease .2s forwards;
 }
 
 @media screen and (max-width: 900px) {
@@ -225,6 +293,11 @@ p {
 }
 
 .socials-mobile {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  opacity: 0;
+  -webkit-animation: fadeInAnimationLeft .6s ease .6s forwards;
+          animation: fadeInAnimationLeft .6s ease .6s forwards;
   position: relative;
   top: 0px;
   left: 5vw;
@@ -251,7 +324,7 @@ p {
 .socials-mobile .divider {
   width: 100%;
   height: 2px;
-  background: #E5E5E5;
+  background: #fafafa;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -294,6 +367,11 @@ p {
 }
 
 .socials {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  opacity: 0;
+  -webkit-animation: fadeInAnimationLeft .6s ease .6s forwards;
+          animation: fadeInAnimationLeft .6s ease .6s forwards;
   position: fixed;
   left: 7vw;
   width: 100%;
