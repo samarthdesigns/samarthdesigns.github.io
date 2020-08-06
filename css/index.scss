@@ -14,6 +14,7 @@ body{
     font-family: 'Inter', sans-serif;
     color: $black;
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 a{
@@ -508,7 +509,7 @@ p{
 .main-info{
     position: relative;
     top: 0px;
-    width: 100vw;
+    width: 100%;
     height: auto;
     padding-top: 60px;
     padding-bottom: 120px;
