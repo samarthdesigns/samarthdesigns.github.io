@@ -15,6 +15,9 @@ h1{
     font-size: 48px;
     text-align: center;
     margin-top: 80px;
+    transform:translateY(40px);
+    opacity:0;
+    animation: upFadeIn .6s ease .2s forwards;
 
     @media screen and (max-width: 600px) {
         font-size: 28px;
@@ -27,6 +30,10 @@ h1{
 .back{
     margin-top: 80px;
     width: 100%;
+
+    @media screen and (max-width: 600px) {
+        margin-top: 40px;
+    }
 
     img{
         height: 20px;
@@ -45,6 +52,9 @@ h1{
 .options-list{
     margin:auto auto;
     text-align: center;
+    transform:translateY(40px);
+    opacity:0;
+    animation: upFadeIn .6s ease .4s forwards;
 }
 
 .option{
@@ -87,6 +97,9 @@ h1{
     margin-top: 80px;
     height: auto;
     padding-bottom: 120px;
+    transform:translateY(40px);
+    opacity:0;
+    animation: upFadeIn .6s ease .8s forwards;
 
     @media screen and (max-width: 600px) {
         margin-top: 20px;
