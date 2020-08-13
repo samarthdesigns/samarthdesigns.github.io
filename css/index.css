@@ -26,23 +26,23 @@ p {
 }
 
 .text-orange {
-  color: #F6A040;
+  color: #F6A040 !important;
 }
 
 .text-pink {
-  color: #F25C96;
+  color: #F25C96 !important;
 }
 
 .text-green {
-  color: #5BD03D;
+  color: #5BD03D !important;
 }
 
 .text-blue {
-  color: #318CF7;
+  color: #318CF7 !important;
 }
 
 .text-darkblue {
-  color: #03008A;
+  color: #03008A !important;
 }
 
 @-webkit-keyframes fadeInAnimationLeft {
@@ -229,6 +229,7 @@ p {
 
 .main .left-holder .content p span {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .main .left-holder .content .small {

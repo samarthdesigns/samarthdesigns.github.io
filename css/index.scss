@@ -1,5 +1,6 @@
 $black: #141414;
 $white: #ffffff;
+$offwhite: #FAFAFA;
 $grey: #616161;
 $lightgrey: #B2B2B2;
 $orange: #F6A040;
@@ -32,23 +33,23 @@ p{
 }
 
 .text-orange{
-    color: $orange;
+    color: $orange !important;
 }
 
 .text-pink{
-    color: $pink;
+    color: $pink !important;
 }
 
 .text-green{
-    color: $green;
+    color: $green !important;
 }
 
 .text-blue{
-    color: $blue;
+    color: $blue !important;
 }
 
 .text-darkblue{
-    color: $darkblue;
+    color: $darkblue !important;
 }
 
 @keyframes fadeInAnimationLeft{
@@ -175,6 +176,7 @@ p{
 
                 span{
                     text-decoration: underline;
+                    cursor: pointer;
                 }
 
             }
