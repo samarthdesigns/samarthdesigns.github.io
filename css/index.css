@@ -628,6 +628,8 @@ p {
   width: auto;
   display: inline-block;
   margin-right: 30px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 @media screen and (max-width: 900px) {
@@ -641,5 +643,12 @@ p {
   .buttons-holder .button {
     margin-bottom: 20px;
   }
+}
+
+.buttons-holder .button:hover {
+  -webkit-transform: translateY(-2px) translateX(-2px);
+          transform: translateY(-2px) translateX(-2px);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 /*# sourceMappingURL=index.css.map */
