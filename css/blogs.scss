@@ -1,0 +1,50 @@
+$black: #141414;
+$white: #ffffff;
+$offwhite: #FAFAFA;
+$grey: #616161;
+$lightgrey: #B2B2B2;
+$orange: #F6A040;
+$pink: #F25C96;
+$green: #5BD03D;
+$blue: #318CF7;
+$darkblue: #03008A;
+
+h1{
+    font-weight: 500;
+    color:$black;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 80px;
+    transform:translateY(40px);
+    opacity:0;
+    animation: upFadeIn .6s ease .2s forwards;
+
+    @media screen and (max-width: 600px) {
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+}
+
+.back{
+    margin-top: 80px;
+    width: 100%;
+
+    @media screen and (max-width: 600px) {
+        margin-top: 40px;
+    }
+
+    img{
+        height: 20px;
+        width: auto;
+        margin-left: 7vw;
+        cursor: pointer;
+    
+        @media screen and (max-width: 600px) {
+            height: 16px;
+        }
+
+    }
+
+}

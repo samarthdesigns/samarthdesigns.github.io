@@ -84,6 +84,15 @@ p{
 
     @media screen and (max-width: 400px) {
         height: calc(30vh + 450px);
+        padding-bottom: 60px;
+    }
+
+    @media screen and (max-width: 340px){
+        padding-bottom: 140px;
+    }
+
+    @media screen and (max-width: 240px){
+        padding-bottom: 220px;
     }
 
 
@@ -151,7 +160,7 @@ p{
             p{
                 font-weight: 300;
                 color: $grey;
-                font-size: 48px;
+                font-size: 42px;
                 line-height: 170%;
                 margin-bottom: 45px;
                 max-width: 950px;
@@ -160,17 +169,17 @@ p{
                 animation: fadeInAnimationLeft .6s ease .4s forwards;
 
                 @media screen and (max-width: 1400px) {
-                    font-size: 40px;
+                    font-size: 34px;
                     max-width: 800px;
                 }
 
                 @media screen and (max-width: 1100px) {
-                    font-size: 32px;
+                    font-size: 28px;
                     max-width: 600px;
                 }
 
                 @media screen and (max-width: 900px) {
-                    font-size: 24px;
+                    font-size: 20px;
                     margin-bottom: 25px;
                 }
 
@@ -526,7 +535,7 @@ p{
 
             img{
                 margin-top: 50px;
-                height: 90px;
+                height: 80px;
                 width: auto;
 
                 @media screen and (max-width: 900px) {
@@ -655,3 +664,29 @@ p{
 
 }
 
+.buttons-holder{
+
+    position: relative;
+    text-align: left;
+    padding-bottom: 30px;
+    transform: translateX(-50px);
+    opacity: 0;
+    animation: fadeInAnimationLeft .6s ease .5s forwards;
+
+    .button{
+        height: 70px;
+        width: auto;
+        display: inline-block;
+        margin-right: 30px;
+
+        @media screen and (max-width: 900px) {
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        @media screen and (max-width: 393px){
+            margin-bottom: 20px;
+        }
+
+    }
+}

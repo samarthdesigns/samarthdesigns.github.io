@@ -1,0 +1,45 @@
+h1 {
+  font-weight: 500;
+  color: #141414;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 80px;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  opacity: 0;
+  -webkit-animation: upFadeIn .6s ease .2s forwards;
+          animation: upFadeIn .6s ease .2s forwards;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.back {
+  margin-top: 80px;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .back {
+    margin-top: 40px;
+  }
+}
+
+.back img {
+  height: 20px;
+  width: auto;
+  margin-left: 7vw;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .back img {
+    height: 16px;
+  }
+}
+/*# sourceMappingURL=blogs.css.map */

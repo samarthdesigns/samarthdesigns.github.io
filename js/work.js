@@ -1,4 +1,4 @@
-let workFieldActive = localStorage.getItem('workFieldActive');
+let workFieldActive = 'ux';
 
 let uxWorkClick = document.getElementById('ux-work-activator');
 let illustrationsWorkClick = document.getElementById('illustrations-work-activator');
