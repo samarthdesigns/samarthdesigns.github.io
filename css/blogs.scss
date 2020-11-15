@@ -27,6 +27,27 @@ h1{
 
 }
 
+p{
+    width: 60%;
+    font-weight: 300;
+    color:$grey;
+    font-size: 32px;
+    text-align: center;
+    transform:translateY(40px);
+    opacity:0;
+    animation: upFadeIn .6s ease .2s forwards;
+    margin: auto auto;
+    margin-top: 20px;
+
+    @media screen and (max-width: 600px) {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 85%;
+    }
+
+}
+
 .back{
     margin-top: 80px;
     width: 100%;
@@ -44,6 +65,354 @@ h1{
         @media screen and (max-width: 600px) {
             height: 16px;
         }
+
+    }
+
+}
+
+@keyframes upFadeIn{
+    0%{
+        transform:translateY(40px);
+        opacity:0;
+    }
+    100%{
+        transform:translatYe(0px);
+        opacity:1;
+    }
+}
+
+.hide{
+    display: none !important;
+}
+
+.thread-container{
+    width: 100%;
+    height: auto;
+    margin: auto auto;
+    margin-top:100px;
+    padding-bottom: 200px;
+    text-align: center;
+
+    @media screen and (max-width: 760px) {
+        width: 90%;
+    }
+
+}
+
+.thread{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 560px;
+    height: 120px;
+    padding:24px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+    @media screen and (max-width: 760px) {
+        width: 80%;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    @media screen and (max-width: 380px) {
+        width: 80%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    @media screen and (max-width: 380px) {
+        width: 80%;
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    .image-holder{
+        height: 100%;
+        width: 120px;
+        float: left;
+
+        @media screen and (max-width: 760px) {
+            width: 100%;
+            height: 122px;
+            padding-bottom: 20px;
+        }
+
+        .image{
+            height: 120px;
+            width: 120px;
+            margin: auto auto;
+            border-radius: 8px;
+    
+            img{
+                height: 100px;
+                width: 100px;
+                float: left;
+                position: relative;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+            }
+    
+        }
+    }
+
+    .thread-content{
+        float: right;
+        width: 72%;
+        height: 120px;
+
+        @media screen and (max-width: 760px) {
+            width: 100%;
+            float: right;
+        }
+
+        h1{
+            font-size: 22px;
+            text-align: left;
+            width: 100%;
+            margin: 0px;
+            margin-top: -26px;
+            font-weight: 700;
+
+            @media screen and (max-width: 760px) {
+                text-align: center;
+            }
+
+        }
+
+        p{
+            font-size: 14px;
+            text-align: left;
+            width: 100%;
+            margin: 0px;
+            margin-top: 12px;
+
+            @media screen and (max-width: 760px) {
+                text-align: center;
+            }
+
+        }
+
+    }
+
+
+}
+
+#running-habit{
+
+
+    transition: all .3s ease;
+    transform: scale(1);
+
+    &:hover{
+
+        border: 1px solid #CF105B;
+        box-shadow: 0px 0px 56.85px rgba(207, 16, 91, 0.3);
+        transition: all .3s ease;
+        transform: scale(1.02);
+
+        .image-holder{
+
+            .image{
+                border: 1px solid #FFFFFF;
+                transition: all .3s ease;
+            }
+
+        }
+
+    }
+
+
+    .image-holder{
+
+        .image{
+            border: 1px solid #CF1058;
+            transition: all .3s ease;
+        }
+
+    }
+
+}
+
+#meditation-habit{
+
+
+    transition: all .3s ease;
+    transform: scale(1);
+
+    &:hover{
+
+        border: 1px solid #FA7D2A;
+        box-shadow: 0px 0px 56px rgba(250, 125, 42, 0.3);
+        transition: all .3s ease;
+        transform: scale(1.02);
+
+        .image-holder{
+
+            .image{
+                border: 1px solid #FFFFFF;
+                transition: all .3s ease;
+            }
+
+        }
+
+    }
+
+
+    .image-holder{
+
+        .image{
+            border: 1px solid #FA7D2A;
+            transition: all .3s ease;
+        }
+
+    }
+
+}
+
+#todo-habit{
+
+    transition: all .3s ease;
+    transform: scale(1);
+
+    &:hover{
+
+        border: 1px solid #FDB60E;
+        box-shadow: 0px 0px 56px rgba(253, 182, 14, 0.3);
+        transition: all .3s ease;
+        transform: scale(1.02);
+
+        .image-holder{
+
+            .image{
+                border: 1px solid #FFFFFF;
+                transition: all .3s ease;
+            }
+
+        }
+
+    }
+
+
+    .image-holder{
+
+        .image{
+            border: 1px solid #FDB60E;
+            transition: all .3s ease;
+        }
+
+    }
+
+}
+
+#book-reviews{
+
+    transition: all .3s ease;
+    transform: scale(1);
+
+    &:hover{
+
+        border: 1px solid #0194D7;
+        box-shadow: 0px 0px 56px rgba(1, 148, 215, 0.3);
+        transition: all .3s ease;
+        transform: scale(1.02);
+
+        .image-holder{
+
+            .image{
+                border: 1px solid #FFFFFF;
+                transition: all .3s ease;
+            }
+
+        }
+
+    }
+
+
+    .image-holder{
+
+        .image{
+            border: 1px solid #0194D7;
+            transition: all .3s ease;
+        }   
+
+    }
+
+}
+
+#setup{
+
+    transition: all .3s ease;
+    transform: scale(1);
+
+    &:hover{
+
+        border: 1px solid #5DADEC;
+        box-shadow: 0px 0px 56px rgba(93, 173, 236, 0.3);
+        transition: all .3s ease;
+        transform: scale(1.02);
+
+        .image-holder{
+
+            .image{
+                border: 1px solid #FFFFFF;
+                transition: all .3s ease;
+            }
+
+        }
+
+    }
+
+
+    .image-holder{
+
+        .image{
+            border: 1px solid #5DADEC;
+            transition: all .3s ease;
+        }   
+
+    }
+
+}
+
+#weight-loss{
+
+    transition: all .3s ease;
+    transform: scale(1);
+
+    &:hover{
+
+        border: 1px solid #BF2B35;
+        box-shadow: 0px 0px 56px rgba(191, 43, 53, 0.3);
+        transition: all .3s ease;
+        transform: scale(1.02);
+
+        .image-holder{
+
+            .image{
+                border: 1px solid #FFFFFF;
+                transition: all .3s ease;
+            }
+
+        }
+
+    }
+
+
+    .image-holder{
+
+        .image{
+            border: 1px solid #BF2B35;
+            transition: all .3s ease;
+        }   
 
     }
 
