@@ -1,4 +1,4 @@
-import '../styles/pages.css';
+import '../styles/App.css';
 import data from '../listing.json'
 
 function IndustrialProjects() {
@@ -6,7 +6,7 @@ function IndustrialProjects() {
 
   return (
 
-    <div class="website">
+    <div class="website listingPage">
 
         <div class="nav">
 

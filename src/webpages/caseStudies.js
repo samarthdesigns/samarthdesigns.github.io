@@ -1,4 +1,4 @@
-import '../styles/pages.css';
+import '../styles/App.css';
 import data from '../listing.json'
 
 function CaseStudies() {
