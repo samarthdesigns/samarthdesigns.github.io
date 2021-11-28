@@ -36,7 +36,7 @@ function CaseStudies() {
             “Good design is good business.”
             </p>
 
-            <h6>retired IBM CEO Thomas Watson, Junior</h6>
+            <h6>retired IBM CEO Thomas Watson</h6>
 
           </div>
 
