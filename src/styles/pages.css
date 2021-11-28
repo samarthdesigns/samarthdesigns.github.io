@@ -9,20 +9,20 @@ a{
 }
 
 
-.nav{
+.listtingPage .nav{
     width: 100%;
     padding-top: 30px;
     padding-bottom: 10px;
     background: #c6a5ff;;
 }
 
-.content {
+.listtingPage .content {
     width: 80%;
     max-width: 1200px;
     margin: auto auto;
 }
 
-.content p{
+.listtingPage .content p{
     color: #ffffff;
     font-weight: 400;
     font-size: 18px;
@@ -33,27 +33,27 @@ a{
     padding: 0px;
 }
 
-.nav .content p{
+.listtingPage .nav .content p{
     font-weight: 700;
     transform: translateX(0px);
     transition: all .3s ease;
 }
 
-.nav .content p:hover{
+.listtingPage .nav .content p:hover{
     transform: translateX(2px);
 }
 
-.container{
+.listtingPage .container{
     width: 100%;
     padding-top: 40px;
     padding-bottom: 60px;
 }
 
-.header {
+.listtingPage .header {
     background: #c6a5ff;
 }
 
-.content h1{
+.listtingPage .content h1{
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: 700;
@@ -64,7 +64,7 @@ a{
     height: auto;
   }
 
-  .content .header p{
+  .listtingPage .content .header p{
     color: #ffffff;
     font-weight: 400;
     font-size: 18px;
@@ -94,7 +94,7 @@ a{
       text-align: center;
   }
 
-  .box{
+  .projectsList .box{
       display: inline-grid;
       width: 100%;
       max-width: 320px;
@@ -110,7 +110,7 @@ a{
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .box h3{
+  .projectsList .box h3{
     padding-top: 20px;
     padding-bottom: 10px;
     color: #08090a;
@@ -122,7 +122,7 @@ a{
     text-align: left;
   }
   
-  .box p{
+  .projectsList .box p{
     margin-bottom: 10px;
     color: #546285;
     font-size: 18px;

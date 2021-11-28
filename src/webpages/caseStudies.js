@@ -6,7 +6,7 @@ function CaseStudies() {
 
   return (
 
-    <div class="website">
+    <div class="website listingPage">
 
         <div class="nav redheader">
 
