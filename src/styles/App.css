@@ -636,3 +636,13 @@ a{
 .redheader{
     background: #ff665e;
 }
+
+
+@media (max-width: 900px) {
+  .projectsList .box{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
