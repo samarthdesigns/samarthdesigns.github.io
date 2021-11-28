@@ -1,0 +1,60 @@
+{
+    "IndustrialProjects": [
+      {
+        "Title": "Airtel Payments Bank",
+        "Link": "https://bootcamp.uxdesign.cc/airtel-payments-bank-design-internship-experience-302a2b46d9e1",
+        "Description": "Improving the experience for merchants on the airtel payments banks with multiple features.",
+        "ImageDestination": "airtelbanner.png"
+      },
+      {
+        "Title": "MakeMyTrip",
+        "Link": "https://bootcamp.uxdesign.cc/makemytrip-design-internship-experience-2e1196ba1cbe",
+        "Description": "Rethinking the flow of the bus booking and post booking experience.",
+        "ImageDestination": "makemytripbanner.png"
+      },
+      {
+        "Title": "Paytm Insider Vibes",
+        "Link": "https://bootcamp.uxdesign.cc/paytm-insider-vibes-a-design-project-87ca50dae475",
+        "Description": "Building a community interaction platform based on video and conversations. Also a video streaming platform for live events.",
+        "ImageDestination": "vibesbanner.png"
+      },
+      {
+        "Title": "Paytm Insider Frontstage",
+        "Link": "https://bootcamp.uxdesign.cc/paytm-insider-frontstage-a-desing-project-c97b93136636",
+        "Description": "Building a community interaction platform based on video and conversations. Also a video streaming platform for live events.",
+        "ImageDestination": "frontstagebanner.png"
+      },
+      {
+        "Title": "Winuall",
+        "Link": "https://medium.com/@samarthdesigns/winuall-design-process-28df1b1c25aa",
+        "Description": "Building an ecosystem with for students and teachers to interact for discussions and resource sharing.",
+        "ImageDestination": "winuallbanner.png"
+      }
+    ],
+    "CaseStudies": [
+      {
+        "Title": "Group Alarm",
+        "Link": "https://medium.com/@samarthdesigns/group-alarm-4689d0f7c744",
+        "Description": "Fixing the problem of endless scrolling alarms.",
+        "ImageDestination": "groupalarmbanner.png"
+      },
+      {
+        "Title": "VITAA",
+        "Link": "https://medium.com/@samarthdesigns/vitaa-app-c133a6bb8e70",
+        "Description": "Bringing alumni closer to the university.",
+        "ImageDestination": "VITAAbanner.png"
+      },
+      {
+        "Title": "Hope House",
+        "Link": "https://medium.com/@samarthdesigns/hope-house-e02fd636986a",
+        "Description": "An anonymous platform for adolescents to ask questions safely.",
+        "ImageDestination": "hopehousebanner.png"
+      },
+      {
+        "Title": "Election App",
+        "Link": "https://medium.com/@samarthdesigns/election-app-56d317d56b32",
+        "Description": "Making elections safe for voters.",
+        "ImageDestination": "electionappbanner.png"
+      }
+    ]
+  }
