@@ -9,6 +9,13 @@ function Home() {
   const Landing = useRef(null);
   const AboutMe = useRef(null);
 
+  const topScroll = () => {
+    window.scrollTo({
+      top: Landing.current.offsetTop,
+      behavior: "smooth",
+    });
+  }
+
   const learnMore = () => {
     window.scrollTo({
       top: IndustrialProjects.current.offsetTop,
@@ -16,9 +23,61 @@ function Home() {
     });
   }
 
+  const industrialProjectsScroll = () => {
+    window.scrollTo({
+      top: IndustrialProjects.current.offsetTop,
+      behavior: "smooth",
+    });
+  }
+
+
+  const caseStudiesScroll = () => {
+    window.scrollTo({
+      top: CaseStudies.current.offsetTop,
+      behavior: "smooth",
+    });
+  }
+
+  const additionalWorkScroll = () => {
+    window.scrollTo({
+      top: AdditionalWork.current.offsetTop,
+      behavior: "smooth",
+    });
+  }
+
+  const moreAboutMeScroll = () => {
+    window.scrollTo({
+      top: AboutMe.current.offsetTop,
+      behavior: "smooth",
+    });
+  }
+
   return (
 
     <div class="website">
+
+
+      <div class="navbar">
+
+        <div class="content">
+
+          <img src="SN.svg" onClick={topScroll}></img>
+
+          <div class="nav-options">
+
+            <p onClick={industrialProjectsScroll}>Industrial Projects</p>
+            
+            <p onClick={caseStudiesScroll}>Case Studies</p>
+
+            <p onClick={additionalWorkScroll}>Addtional Work</p>
+            
+            <p onClick={moreAboutMeScroll}>More About Me</p>
+
+          </div>
+
+        </div>
+
+      </div>
 
       <div class="container main" ref={Landing}>
 
@@ -28,7 +87,7 @@ function Home() {
 
             <h1>Hey <span>Samarth</span> here,</h1>
 
-            <p>A product designer who loves designing experiences, illustrating and animating.</p>
+            <p>A product designer who loves designing experiences, illustrating and animating. Currently crafting experiences at <a href="https://insider.in/online" target="_blank" class="insider">Paytm Insider</a>. Previously at <a href="https://www.makemytrip.com/" target="_blank" class="makemytrip">MakeMyTrip</a>, <a href="https://www.goibibo.com/" target="_blank" class="goibibo">GoIbibo</a> and <a href="https://www.airtel.in/bank/" target="_blank" class="airtel">Airtel Payments Bank</a>.</p>
 
             <div class="button" onClick={learnMore}>Learn More</div>
 
