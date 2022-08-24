@@ -87,7 +87,7 @@ function Home() {
 
             <h1>Hey <span>Samarth</span> here,</h1>
 
-            <p>A product designer who loves designing experiences, illustrating and animating. Currently crafting experiences at <a href="https://insider.in/online" target="_blank" class="insider">Paytm Insider</a>. Previously at <a href="https://www.makemytrip.com/" target="_blank" class="makemytrip">MakeMyTrip</a>, <a href="https://www.goibibo.com/" target="_blank" class="goibibo">GoIbibo</a> and <a href="https://www.airtel.in/bank/" target="_blank" class="airtel">Airtel Payments Bank</a>.</p>
+            <p>A design enthusiast with a love for building products, with random ventures into illustration, development and animation. Currently learning something new everday at University of Texas at Austin. Previously at <a href="https://insider.in/online" target="_blank" class="insider">Paytm Insider</a>, <a href="https://www.makemytrip.com/" target="_blank" class="makemytrip">MakeMyTrip</a>, <a href="https://www.goibibo.com/" target="_blank" class="goibibo">GoIbibo</a> and <a href="https://www.airtel.in/bank/" target="_blank" class="airtel">Airtel Payments Bank</a>.</p>
 
             <div class="button" onClick={learnMore}>Learn More</div>
 
